@@ -102,8 +102,8 @@ npm run build-static
 ## Styling
 The main part of this repository is under the `elements/` directory.
 React components under that directory are thin wrappers on top of HTML elements (e.g. `<p>`, `<div>`).
-They provide extra "styling superpowers" from [styled-system]().
-The design system values are mapped to css classnames dynamically, using the [emotion]() css-in-js library.
+They provide extra "styling superpowers" from [styled-system](https://jxnblk.com/styled-system/).
+The design system values are mapped to css classnames dynamically, using the [emotion](https://github.com/emotion-js/emotion) css-in-js library.
 In that sense, CSS is more like the target, but the essence is in the values.
 
 In the shortest way I can put it:
@@ -123,7 +123,7 @@ const Card = ({children}) =>
 ```
 
 ### Further reading on styling
-If you have not used styled-system before, I highly recommend [their documentation]().
+If you have not used styled-system before, I highly recommend [their documentation](https://jxnblk.com/styled-system/getting-started).
 
 Varun Vachar has another great on styling as props, that motivates things from the ground up:
 https://varun.ca/styled-system/
@@ -131,7 +131,7 @@ https://varun.ca/styled-system/
 The page under [localhost:8080/elements](localhost:8080/elements) has a playground.
 
 ## Deploying
-TODO: WIP
+:construction: WORK IN PROGRESS :construction:
 There are many ways to deploy a static site.
 This part of the project is easy to remove, and mostly a convenience.
 
