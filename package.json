@@ -1,12 +1,13 @@
 {
-  "name": "x0-styled",
-  "version": "0.13.0",
+  "name": "proto",
+  "version": "0.1.0",
   "description": "Static site builder with React, Glamorous, Styled-system, and x0",
-  "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "x0 build App.js --static --out-dir site",
-    "dev": "x0 pages"
+    "start": "npm run dev",
+    "build": "x0 build pages --out-dir site",
+    "build-static": "x0 build pages --static --out-dir site",
+    "dev": "x0 pages -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -23,13 +24,14 @@
     "prettier": "1.13.0"
   },
   "x0": {
+    "title": "Proto",
+    "description": "A prototyping setup",
     "template": "./html.js",
     "meta": [
       {
         "name": "viewport",
         "content": "width=device-width, initial-scale=1"
       }
-    ],
-    "title": "Proto"
+    ]
   }
 }

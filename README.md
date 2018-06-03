@@ -69,40 +69,32 @@ npm install && npm run dev
 
 Then open your browser at localhost:8000
 
-You can edit `pages/Home.js` and you should see those adjustments update live in the browser.
+You can edit `pages/Index.js` and you should see those adjustments update live in the browser.
+
+If you want to customise the title and description of your site, look under the `x0` field in `package.json`.
 
 ## Adding a new page
-Fist add a new page in the `pages/` directory. You can copy Home.js and rename it to something else, like Example.js
+x0 crates routes based on the filesystem, mirroring the setup under the `files/` directory.
 
-In App.js you'll want to import a new component at the top of the page. (A page is still a component)
-App.js is currently importing Home and Elements pages by default. Here we add an Example page (Example could be changed to any string)
+Fist add a new page in the `pages/` directory. 
+You can copy Index.js and rename it to something else, like Example.js
 
+See [x0's docs on Routing](https://github.com/c8r/x0#routing) for more details.
+
+## Building
+When you are ready to build for production, run:
+
+```shell
+npm run build
 ```
-//
-import Home from './pages/Home'
-import Elements from './pages/Elements'
-import Example from './pages/Example'
-```
 
-Then you will need to add a new Route within the Router component.
-We currently have routes to Home and Elements by default. You'll want to add new Route component
+This will create the static site under the `site/` directory.
+It will also write a `bundle.js` file, which will rehydrate (i.e. "pick up / take over") the client application in `index.html`.
 
-```
-  <Route
-    exact
-    path='/'
-    render={() => <Home {...props} />}
-  />
-  <Route
-    exact
-    path='/elements'
-    render={() => <Elements {...props} />}
-  />
-  <Route
-    exact
-    path='/example'
-    render={() => <Example {...props} />}
-  />
+If you want a fully static build, without the bundle, then run:
+
+```shell
+npm run build-static
 ```
 
 ## Styling
