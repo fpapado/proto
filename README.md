@@ -140,11 +140,10 @@ npm run install -g now
 Then, whenever you want to deploy:
 
 ```shell
-npm run deploy:now
+npm run build && npm run deploy:now
 ```
 
 This part of the project is easy to remove, and mostly a convenience.
-
 
 ## Credits
 Based on work by @mrmrs, @jxnblk, and @johno.

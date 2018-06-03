@@ -1,9 +1,7 @@
 {
   "name": "proto",
   "alias": "proto",
-  "files": [
-    "site"
-  ],
+  "type": "static",
   "env": {
     "NODE_ENV": "production"
   }

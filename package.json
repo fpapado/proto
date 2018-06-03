@@ -6,7 +6,7 @@
     "start": "npm run dev",
     "dev": "x0 pages",
     "build": "NODE_ENV=production x0 build pages",
-    "deploy:now": "now",
+    "deploy:now": "cd ./site && now deploy --local-config=../now.json . && now alias --local-config=../now.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
