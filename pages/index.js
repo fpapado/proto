@@ -4,6 +4,11 @@ import H1 from '../elements/H1';
 import P from '../elements/P';
 import A from '../elements/A';
 import theme from '../theme';
+import { css } from 'react-emotion';
+
+const linkStyle = css`
+  text-decoration-color: ${theme.colors.blue[2]};
+`;
 
 const Index = props => (
   <Div color="black.1" bg="bg" py={[5, 6, 7]} px={[4, 5, 6]}>
@@ -23,7 +28,7 @@ const Index = props => (
           textDecorationColor: theme.colors.blue[7],
         }}
         active={{ color: 'blue.5' }}
-        css={{ textDecorationColor: theme.colors.blue[2] }}
+        css={linkStyle}
         href="https://github.com/fpapado/proto"
       >
         https://github.com/fpapado/proto

@@ -9,7 +9,7 @@ module.exports = ({
   static: isStatic,
 }) => `<!DOCTYPE html>
 <head>
-  <title>{title}</title>
+  <title>${title}</title>
   ${!!css ? css : ''}
 </head>
 <body>
