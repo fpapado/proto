@@ -97,6 +97,8 @@ If you want a fully static build, without the bundle, then run:
 npm run build-static
 ```
 
+[Read more about x0 in their docs](https://compositor.io/x0/docs)
+
 ## Styling
 The main part of this repository is under the `elements/` directory.
 React components under that directory are thin wrappers on top of HTML elements (e.g. `<p>`, `<div>`).

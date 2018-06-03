@@ -5,8 +5,8 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "x0 pages",
-    "build": "x0 build pages",
-    "build-static": "x0 build pages --static",
+    "build": "NODE_ENV=production x0 build pages",
+    "build-static": "NODE_ENV=productionrx0 build pages --static",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -21,7 +21,6 @@
     "styled-system": "^2.2.5"
   },
   "devDependencies": {
-    "meow": "^5.0.0",
     "prettier": "1.13.0"
   },
   "x0": {

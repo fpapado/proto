@@ -1,3 +1,4 @@
+// example template
 module.exports = ({
   html,
   css,
@@ -5,10 +6,11 @@ module.exports = ({
   title,
   meta = [],
   links = [],
+  static: isStatic,
 }) => `<!DOCTYPE html>
 <head>
-  <title>${title}</title>
-  ${css}
+  <title>{title}</title>
+  ${!!css ? css : ''}
 </head>
 <body>
   <div id=root>${html}</div>
