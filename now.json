@@ -1,6 +1,9 @@
 {
-  "name": "",
-  "alias": "",
+  "name": "proto",
+  "alias": "proto",
+  "files": [
+    "site"
+  ],
   "env": {
     "NODE_ENV": "production"
   }

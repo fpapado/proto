@@ -6,7 +6,6 @@
     "start": "npm run dev",
     "dev": "x0 pages",
     "build": "NODE_ENV=production x0 build pages",
-    "build-static": "NODE_ENV=productionrx0 build pages --static",
     "deploy:now": "now",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

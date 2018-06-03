@@ -91,12 +91,6 @@ npm run build
 This will create the static site under the `site/` directory.
 It will also write a `bundle.js` file, which will rehydrate (i.e. "pick up / take over") the client application in `index.html`.
 
-If you want a fully static build, without the bundle, then run:
-
-```shell
-npm run build-static
-```
-
 [Read more about x0 in their docs](https://compositor.io/x0/docs)
 
 ## Styling
