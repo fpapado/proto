@@ -10,8 +10,9 @@ import {
   borderWidth,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Article = styled.article(
+const Article = styled(tag.article)(
   space,
   width,
   display,

@@ -11,8 +11,9 @@ import {
   borderWidth,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Ul = styled.ul(
+const Ul = styled(tag.ul)(
   space,
   display,
   width,

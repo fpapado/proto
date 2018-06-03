@@ -10,8 +10,9 @@ import {
   borderWidth,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Ol = styled.ol(
+const Ol = styled(tag.ol)(
   space,
   width,
   display,

@@ -7,11 +7,20 @@ import {
   borders,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Samp = styled.samp(space, width, fontSize, color, borders, borderRadius, {
-  boxSizing: 'border-box',
-  fontFamily: 'monospace, monospace',
-});
+const Samp = styled(tag.samp)(
+  space,
+  width,
+  fontSize,
+  color,
+  borders,
+  borderRadius,
+  {
+    boxSizing: 'border-box',
+    fontFamily: 'monospace, monospace',
+  },
+);
 
 Samp.defaultProps = {
   fontSize: 2,

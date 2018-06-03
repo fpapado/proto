@@ -10,8 +10,9 @@ import {
   borderWidth,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Form = styled.form(
+const Form = styled(tag.form)(
   space,
   display,
   width,

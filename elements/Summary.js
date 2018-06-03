@@ -8,8 +8,9 @@ import {
   textAlign,
   color,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Summary = styled.summary(
+const Summary = styled(tag.summary)(
   space,
   display,
   width,

@@ -10,8 +10,9 @@ import {
   borderColor,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Address = styled.address(
+const Address = styled(tag.address)(
   space,
   display,
   width,

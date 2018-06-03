@@ -10,8 +10,9 @@ import {
   borderWidth,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Fieldset = styled.fieldset(
+const Fieldset = styled(tag.fieldset)(
   space,
   display,
   width,

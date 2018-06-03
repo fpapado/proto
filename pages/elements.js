@@ -120,20 +120,21 @@ const Elements = props => (
     <Sub>Sub text</Sub>
     <Sup>Super text</Sup>
     <Table>
-      <Tr>
-        <Th>Name</Th>
-        <Th>Value</Th>
-        <Th>Id</Th>
-        <Th>Date</Th>
-      </Tr>
-      <Tr>
-        <Td>John Smith</Td>
-        <Td>2400</Td>
-        <Td>99-aa-8793ab</Td>
-        <Td>13 Mar 18</Td>
-      </Tr>
+      <tbody>
+        <Tr>
+          <Th scope="col">Name</Th>
+          <Th scope="col">Value</Th>
+          <Th scope="col">Id</Th>
+          <Th scope="col">Date</Th>
+        </Tr>
+        <Tr>
+          <Td>John Smith</Td>
+          <Td>2400</Td>
+          <Td>99-aa-8793ab</Td>
+          <Td>13 Mar 18</Td>
+        </Tr>
+      </tbody>
     </Table>
-    <Td />
     <Textarea />
     <Time />
     <U>Some underlined text</U>

@@ -9,8 +9,9 @@ import {
   borderColor,
   borderWidth,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Dd = styled.dd(
+const Dd = styled(tag.dd)(
   space,
   display,
   width,

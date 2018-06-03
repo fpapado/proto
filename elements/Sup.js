@@ -7,8 +7,9 @@ import {
   lineHeight,
   color,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Sup = styled.sup(space, fontSize, fontWeight, lineHeight, color, {});
+const Sup = styled(tag.sup)(space, fontSize, fontWeight, lineHeight, color, {});
 
 Sup.defaultProps = {};
 

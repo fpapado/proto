@@ -9,8 +9,9 @@ import {
   textAlign,
   color,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Label = styled.label(
+const Label = styled(tag.label)(
   space,
   display,
   width,

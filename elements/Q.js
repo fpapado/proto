@@ -7,8 +7,17 @@ import {
   lineHeight,
   color,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Q = styled.q(space, width, fontSize, fontWeight, lineHeight, color, {});
+const Q = styled(tag.q)(
+  space,
+  width,
+  fontSize,
+  fontWeight,
+  lineHeight,
+  color,
+  {},
+);
 
 Q.defaultProps = {};
 

@@ -7,8 +7,9 @@ import {
   lineHeight,
   color,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Small = styled.small(
+const Small = styled(tag.small)(
   space,
   width,
   fontSize,

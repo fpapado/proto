@@ -10,8 +10,9 @@ import {
   borderWidth,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Footer = styled.footer(
+const Footer = styled(tag.footer)(
   space,
   display,
   width,

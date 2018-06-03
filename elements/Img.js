@@ -9,8 +9,9 @@ import {
   borderWidth,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Img = styled.img(
+const Img = styled(tag.img)(
   space,
   display,
   width,

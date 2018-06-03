@@ -10,8 +10,9 @@ import {
   borderColor,
   borderWidth,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Th = styled.td(
+const Th = styled(tag.th)(
   space,
   width,
   fontSize,

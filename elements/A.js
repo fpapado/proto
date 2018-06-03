@@ -19,8 +19,9 @@ import {
   focus,
   active,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const A = styled.a(
+const A = styled(tag.a)(
   space,
   width,
   display,

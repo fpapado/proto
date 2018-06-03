@@ -9,8 +9,9 @@ import {
   textAlign,
   color,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Span = styled.span(
+const Span = styled(tag.span)(
   space,
   display,
   width,

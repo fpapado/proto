@@ -12,8 +12,9 @@ import {
   borderWidth,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Header = styled.header(
+const Header = styled(tag.header)(
   space,
   display,
   width,

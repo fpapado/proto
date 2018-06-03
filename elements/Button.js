@@ -16,8 +16,9 @@ import {
   active,
   focus,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Button = styled.button(
+const Button = styled(tag.button)(
   space,
   width,
   display,

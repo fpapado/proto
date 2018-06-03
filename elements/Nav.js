@@ -13,8 +13,9 @@ import {
   borderWidth,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Nav = styled.nav(
+const Nav = styled(tag.nav)(
   space,
   display,
   width,

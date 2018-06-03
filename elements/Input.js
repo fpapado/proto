@@ -13,8 +13,9 @@ import {
   active,
   focus,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Input = styled.input(
+const Input = styled(tag.input)(
   space,
   display,
   width,

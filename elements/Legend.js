@@ -10,8 +10,9 @@ import {
   borderWidth,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Legend = styled.legend(
+const Legend = styled(tag.legend)(
   space,
   display,
   width,

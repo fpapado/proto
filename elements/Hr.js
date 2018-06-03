@@ -7,12 +7,21 @@ import {
   borderColor,
   borderWidth,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Hr = styled.hr(space, width, color, borders, borderColor, borderWidth, {
-  boxSizing: 'content-box',
-  height: 0,
-  overflow: 'visible',
-});
+const Hr = styled(tag.hr)(
+  space,
+  width,
+  color,
+  borders,
+  borderColor,
+  borderWidth,
+  {
+    boxSizing: 'content-box',
+    height: 0,
+    overflow: 'visible',
+  },
+);
 
 Hr.defaultProps = {};
 

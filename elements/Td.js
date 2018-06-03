@@ -8,12 +8,13 @@ import {
   color,
   borders,
 } from 'styled-system';
+import tag from 'clean-tag';
 
 const verticalAlign = props => ({
   verticalAlign: props.verticalAlign ? props.verticalAlign : 'middle',
 });
 
-const Td = styled.td(
+const Td = styled(tag.td)(
   space,
   width,
   fontSize,

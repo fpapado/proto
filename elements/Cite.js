@@ -7,8 +7,9 @@ import {
   lineHeight,
   color,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Cite = styled.cite(
+const Cite = styled(tag.cite)(
   space,
   width,
   fontSize,

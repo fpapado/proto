@@ -8,8 +8,9 @@ import {
   lineHeight,
   color,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Time = styled.time(
+const Time = styled(tag.time)(
   space,
   display,
   width,

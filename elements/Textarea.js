@@ -9,8 +9,9 @@ import {
   borderWidth,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Textarea = styled.textarea(
+const Textarea = styled(tag.textarea)(
   space,
   width,
   fontSize,

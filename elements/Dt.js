@@ -7,8 +7,17 @@ import {
   fontWeight,
   color,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Dt = styled.dt(space, display, width, fontSize, fontWeight, color, {});
+const Dt = styled(tag.dt)(
+  space,
+  display,
+  width,
+  fontSize,
+  fontWeight,
+  color,
+  {},
+);
 
 Dt.defaultProps = {};
 

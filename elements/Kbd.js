@@ -9,8 +9,9 @@ import {
   borderWidth,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Kbd = styled.code(
+const Kbd = styled(tag.code)(
   space,
   width,
   fontSize,

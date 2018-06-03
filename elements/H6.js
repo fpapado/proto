@@ -11,8 +11,9 @@ import {
   color,
   borders,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const H6 = styled.h6(
+const H6 = styled(tag.h6)(
   space,
   display,
   width,

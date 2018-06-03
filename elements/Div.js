@@ -12,12 +12,13 @@ import {
   borderWidth,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
 const maxWidth = props => ({
   maxWidth: props.maxWidth ? props.maxWidth : '100%',
 });
 
-const Div = styled.div(
+const Div = styled(tag.div)(
   space,
   width,
   display,

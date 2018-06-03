@@ -10,8 +10,9 @@ import {
   borderColor,
   borderRadius,
 } from 'styled-system';
+import tag from 'clean-tag';
 
-const Aside = styled.aside(
+const Aside = styled(tag.aside)(
   space,
   width,
   display,
