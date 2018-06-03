@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   width,
@@ -6,11 +6,11 @@ import {
   fontWeight,
   textAlign,
   color,
-  borders
-} from "styled-system";
+  borders,
+} from 'styled-system';
 
 const verticalAlign = props => ({
-  verticalAlign: props.verticalAlign ? props.verticalAlign : "middle"
+  verticalAlign: props.verticalAlign ? props.verticalAlign : 'middle',
 });
 
 const Td = glamorous.td(
@@ -22,7 +22,7 @@ const Td = glamorous.td(
   color,
   borders,
   verticalAlign,
-  {}
+  {},
 );
 
 Td.defaultProps = {};

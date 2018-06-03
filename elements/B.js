@@ -1,12 +1,12 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   width,
   fontSize,
   fontWeight,
   lineHeight,
-  color
-} from "styled-system";
+  color,
+} from 'styled-system';
 
 const B = glamorous.b(
   space,
@@ -15,11 +15,11 @@ const B = glamorous.b(
   fontWeight,
   lineHeight,
   color,
-  {}
+  {},
 );
 
 B.defaultProps = {
-  fontWeight: "bolder"
+  fontWeight: 'bolder',
 };
 
 export default B;

@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   display,
@@ -8,8 +8,8 @@ import {
   borders,
   borderColor,
   borderWidth,
-  borderRadius
-} from "styled-system";
+  borderRadius,
+} from 'styled-system';
 
 const Footer = glamorous.footer(
   space,
@@ -22,8 +22,8 @@ const Footer = glamorous.footer(
   borderWidth,
   borderRadius,
   {
-    boxSizing: "border-box"
-  }
+    boxSizing: 'border-box',
+  },
 );
 
 Footer.defaultProps = {};

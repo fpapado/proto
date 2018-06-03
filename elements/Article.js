@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   width,
@@ -8,8 +8,8 @@ import {
   borders,
   borderColor,
   borderWidth,
-  borderRadius
-} from "styled-system";
+  borderRadius,
+} from 'styled-system';
 
 const Article = glamorous.article(
   space,
@@ -22,12 +22,12 @@ const Article = glamorous.article(
   borderWidth,
   borderRadius,
   {
-    boxSizing: "border-box"
-  }
+    boxSizing: 'border-box',
+  },
 );
 
 Article.defaultProps = {
-  w: 1
+  w: 1,
 };
 
 export default Article;

@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 
 import {
   space,
@@ -10,11 +10,11 @@ import {
   borders,
   borderColor,
   borderWidth,
-  borderRadius
-} from "styled-system";
+  borderRadius,
+} from 'styled-system';
 
 const maxWidth = props => ({
-  maxWidth: props.maxWidth ? props.maxWidth : "100%"
+  maxWidth: props.maxWidth ? props.maxWidth : '100%',
 });
 
 const Div = glamorous.div(
@@ -30,12 +30,12 @@ const Div = glamorous.div(
   borderRadius,
   maxWidth,
   {
-    boxSizing: "border-box"
-  }
+    boxSizing: 'border-box',
+  },
 );
 
 Div.defaultProps = {
-  w: 1
+  w: 1,
 };
 
 export default Div;

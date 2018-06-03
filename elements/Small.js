@@ -1,12 +1,12 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   width,
   fontSize,
   fontWeight,
   lineHeight,
-  color
-} from "styled-system";
+  color,
+} from 'styled-system';
 
 const Small = glamorous.small(
   space,
@@ -15,7 +15,7 @@ const Small = glamorous.small(
   fontWeight,
   lineHeight,
   color,
-  {}
+  {},
 );
 
 Small.defaultProps = {};

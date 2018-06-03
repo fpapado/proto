@@ -1,7 +1,7 @@
-import React from "react";
-import { containerWidth } from "./theme";
+import React from 'react';
+import { containerWidth } from './theme';
 
-import Div from "./Div";
+import Div from './Div';
 const Container = ({ innerBg, ...props }) => {
   return (
     <Div {...props}>

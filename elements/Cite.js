@@ -1,12 +1,12 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   width,
   fontSize,
   fontWeight,
   lineHeight,
-  color
-} from "styled-system";
+  color,
+} from 'styled-system';
 
 const Cite = glamorous.cite(
   space,
@@ -15,7 +15,7 @@ const Cite = glamorous.cite(
   fontWeight,
   lineHeight,
   color,
-  {}
+  {},
 );
 
 Cite.defaultProps = {};

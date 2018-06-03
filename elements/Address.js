@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   display,
@@ -8,8 +8,8 @@ import {
   borders,
   borderWidth,
   borderColor,
-  borderRadius
-} from "styled-system";
+  borderRadius,
+} from 'styled-system';
 
 const Address = glamorous.address(
   space,
@@ -21,7 +21,7 @@ const Address = glamorous.address(
   borderWidth,
   borderColor,
   borderRadius,
-  {}
+  {},
 );
 
 Address.defaultProps = {};

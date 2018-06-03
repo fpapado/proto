@@ -1,12 +1,12 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   width,
   fontSize,
   color,
   borders,
-  borderRadius
-} from "styled-system";
+  borderRadius,
+} from 'styled-system';
 
 const Samp = glamorous.samp(
   space,
@@ -16,13 +16,13 @@ const Samp = glamorous.samp(
   borders,
   borderRadius,
   {
-    boxSizing: "border-box",
-    fontFamily: "monospace, monospace"
-  }
+    boxSizing: 'border-box',
+    fontFamily: 'monospace, monospace',
+  },
 );
 
 Samp.defaultProps = {
-  fontSize: 2
+  fontSize: 2,
 };
 
 export default Samp;

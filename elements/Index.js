@@ -1,8 +1,8 @@
-import React from "react";
-import { Library, Example } from "@compositor/kit";
+import React from 'react';
+import { Library, Example } from '@compositor/kit';
 
-import H1 from "./H1";
-import Div from "./Div";
+import H1 from './H1';
+import Div from './Div';
 
 const App = props => (
   <Library>

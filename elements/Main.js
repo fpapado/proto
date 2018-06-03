@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   display,
@@ -8,8 +8,8 @@ import {
   borders,
   borderColor,
   borderWidth,
-  borderRadius
-} from "styled-system";
+  borderRadius,
+} from 'styled-system';
 
 const Main = glamorous.div(
   space,
@@ -22,12 +22,12 @@ const Main = glamorous.div(
   borderWidth,
   borderRadius,
   {
-    boxSizing: "border-box"
-  }
+    boxSizing: 'border-box',
+  },
 );
 
 Main.defaultProps = {
-  w: 1
+  w: 1,
 };
 
 export default Main;

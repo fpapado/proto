@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   display,
@@ -7,8 +7,8 @@ import {
   fontWeight,
   lineHeight,
   textAlign,
-  color
-} from "styled-system";
+  color,
+} from 'styled-system';
 
 const Label = glamorous.label(
   space,
@@ -19,7 +19,7 @@ const Label = glamorous.label(
   lineHeight,
   textAlign,
   color,
-  {}
+  {},
 );
 
 Label.defaultProps = {};

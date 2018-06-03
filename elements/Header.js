@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   display,
@@ -10,8 +10,8 @@ import {
   borders,
   borderColor,
   borderWidth,
-  borderRadius
-} from "styled-system";
+  borderRadius,
+} from 'styled-system';
 
 const Header = glamorous.header(
   space,
@@ -22,8 +22,8 @@ const Header = glamorous.header(
   borders,
   borderRadius,
   {
-    boxSizing: "border-box"
-  }
+    boxSizing: 'border-box',
+  },
 );
 
 Header.defaultProps = {};

@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   width,
@@ -7,8 +7,8 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth
-} from "styled-system";
+  borderWidth,
+} from 'styled-system';
 
 const Li = glamorous.li(
   space,
@@ -20,12 +20,12 @@ const Li = glamorous.li(
   borderColor,
   borderWidth,
   {
-    boxSizing: "border-box"
-  }
+    boxSizing: 'border-box',
+  },
 );
 
 Li.defaultProps = {
-  pl: 0
+  pl: 0,
 };
 
 export default Li;

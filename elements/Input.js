@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   display,
@@ -11,8 +11,8 @@ import {
   color,
   hover,
   active,
-  focus
-} from "styled-system";
+  focus,
+} from 'styled-system';
 
 const Input = glamorous.input(
   space,
@@ -28,12 +28,12 @@ const Input = glamorous.input(
   active,
   focus,
   {
-    overflow: "visible"
-  }
+    overflow: 'visible',
+  },
 );
 
 Input.defaultProps = {
-  type: "text"
+  type: 'text',
 };
 
 export default Input;

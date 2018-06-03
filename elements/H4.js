@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   display,
@@ -9,8 +9,8 @@ import {
   fontWeight,
   lineHeight,
   color,
-  borders
-} from "styled-system";
+  borders,
+} from 'styled-system';
 
 const H4 = glamorous.h4(
   space,
@@ -24,8 +24,8 @@ const H4 = glamorous.h4(
   color,
   borders,
   {
-    boxSizing: "border-box"
-  }
+    boxSizing: 'border-box',
+  },
 );
 
 H4.defaultProps = {};

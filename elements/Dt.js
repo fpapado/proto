@@ -1,12 +1,12 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   display,
   width,
   fontSize,
   fontWeight,
-  color
-} from "styled-system";
+  color,
+} from 'styled-system';
 
 const Dt = glamorous.dt(space, display, width, fontSize, fontWeight, color, {});
 

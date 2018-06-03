@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   width,
@@ -17,8 +17,8 @@ import {
   borderRadius,
   hover,
   focus,
-  active
-} from "styled-system";
+  active,
+} from 'styled-system';
 
 const A = glamorous.a(
   space,
@@ -37,12 +37,12 @@ const A = glamorous.a(
   focus,
   active,
   {
-    boxSizing: "border-box"
-  }
+    boxSizing: 'border-box',
+  },
 );
 
 A.defaultProps = {
-  bg: "transparent"
+  bg: 'transparent',
 };
 
 export default A;

@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   width,
@@ -8,8 +8,8 @@ import {
   borders,
   borderWidth,
   borderColor,
-  borderRadius
-} from "styled-system";
+  borderRadius,
+} from 'styled-system';
 
 const Aside = glamorous.aside(
   space,
@@ -22,8 +22,8 @@ const Aside = glamorous.aside(
   borderColor,
   borderRadius,
   {
-    boxSizing: "border-box"
-  }
+    boxSizing: 'border-box',
+  },
 );
 
 Aside.defaultProps = {};

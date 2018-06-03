@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   width,
@@ -7,8 +7,8 @@ import {
   borders,
   borderColor,
   borderWidth,
-  borderRadius
-} from "styled-system";
+  borderRadius,
+} from 'styled-system';
 
 const Kbd = glamorous.code(
   space,
@@ -20,13 +20,13 @@ const Kbd = glamorous.code(
   borderWidth,
   borderRadius,
   {
-    boxSizing: "border-box",
-    fontFamily: "monospace, monospace"
-  }
+    boxSizing: 'border-box',
+    fontFamily: 'monospace, monospace',
+  },
 );
 
 Kbd.defaultProps = {
-  fontSize: 2
+  fontSize: 2,
 };
 
 export default Kbd;

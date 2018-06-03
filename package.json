@@ -19,7 +19,8 @@
     "styled-system": "^2.2.5"
   },
   "devDependencies": {
-    "meow": "^5.0.0"
+    "meow": "^5.0.0",
+    "prettier": "1.13.0"
   },
   "x0": {
     "template": "./html.js",

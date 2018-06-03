@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   display,
@@ -7,8 +7,8 @@ import {
   fontWeight,
   color,
   borderColor,
-  borderWidth
-} from "styled-system";
+  borderWidth,
+} from 'styled-system';
 
 const Dd = glamorous.dd(
   space,
@@ -19,7 +19,7 @@ const Dd = glamorous.dd(
   color,
   borderColor,
   borderWidth,
-  {}
+  {},
 );
 
 Dd.defaultProps = {};

@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   width,
@@ -8,8 +8,8 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth
-} from "styled-system";
+  borderWidth,
+} from 'styled-system';
 
 const Th = glamorous.td(
   space,
@@ -21,11 +21,11 @@ const Th = glamorous.td(
   borders,
   borderColor,
   borderWidth,
-  {}
+  {},
 );
 
 Th.defaultProps = {
-  fontWeight: "bold"
+  fontWeight: 'bold',
 };
 
 export default Th;

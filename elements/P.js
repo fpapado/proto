@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   display,
@@ -7,8 +7,8 @@ import {
   fontWeight,
   lineHeight,
   textAlign,
-  color
-} from "styled-system";
+  color,
+} from 'styled-system';
 
 const P = glamorous.p(
   space,
@@ -20,9 +20,9 @@ const P = glamorous.p(
   textAlign,
   color,
   {
-    boxSizing: "border-box",
-    maxWidth: "34em"
-  }
+    boxSizing: 'border-box',
+    maxWidth: '34em',
+  },
 );
 
 P.defaultProps = {};

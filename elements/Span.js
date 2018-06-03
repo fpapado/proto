@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   display,
@@ -7,8 +7,8 @@ import {
   fontWeight,
   lineHeight,
   textAlign,
-  color
-} from "styled-system";
+  color,
+} from 'styled-system';
 
 const Span = glamorous.span(
   space,
@@ -19,7 +19,7 @@ const Span = glamorous.span(
   lineHeight,
   textAlign,
   color,
-  {}
+  {},
 );
 
 Span.defaultProps = {};

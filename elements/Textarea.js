@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   width,
@@ -7,8 +7,8 @@ import {
   borders,
   borderColor,
   borderWidth,
-  borderRadius
-} from "styled-system";
+  borderRadius,
+} from 'styled-system';
 
 const Textarea = glamorous.textarea(
   space,
@@ -19,7 +19,7 @@ const Textarea = glamorous.textarea(
   borderColor,
   borderWidth,
   borderRadius,
-  {}
+  {},
 );
 
 Textarea.defaultProps = {};

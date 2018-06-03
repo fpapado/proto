@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   display,
@@ -6,8 +6,8 @@ import {
   fontSize,
   fontWeight,
   textAlign,
-  color
-} from "styled-system";
+  color,
+} from 'styled-system';
 
 const Details = glamorous.details(
   space,
@@ -17,11 +17,11 @@ const Details = glamorous.details(
   fontWeight,
   textAlign,
   color,
-  {}
+  {},
 );
 
 Details.defaultProps = {
-  display: "block"
+  display: 'block',
 };
 
 export default Details;

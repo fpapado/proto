@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   display,
@@ -7,8 +7,8 @@ import {
   borders,
   borderColor,
   borderWidth,
-  borderRadius
-} from "styled-system";
+  borderRadius,
+} from 'styled-system';
 
 const Img = glamorous.img(
   space,
@@ -20,14 +20,14 @@ const Img = glamorous.img(
   borderWidth,
   borderRadius,
   {
-    display: "block",
-    maxWidth: "100%",
-    borderStyle: "none"
-  }
+    display: 'block',
+    maxWidth: '100%',
+    borderStyle: 'none',
+  },
 );
 
 Img.defaultProps = {
-  w: 1
+  w: 1,
 };
 
 export default Img;

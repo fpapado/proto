@@ -1,4 +1,4 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   display,
@@ -6,8 +6,8 @@ import {
   fontSize,
   fontWeight,
   textAlign,
-  color
-} from "styled-system";
+  color,
+} from 'styled-system';
 
 const Summary = glamorous.summary(
   space,
@@ -17,7 +17,7 @@ const Summary = glamorous.summary(
   fontWeight,
   textAlign,
   color,
-  {}
+  {},
 );
 
 Summary.defaultProps = {};

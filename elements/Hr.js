@@ -1,12 +1,12 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   width,
   color,
   borders,
   borderColor,
-  borderWidth
-} from "styled-system";
+  borderWidth,
+} from 'styled-system';
 
 const Hr = glamorous.hr(
   space,
@@ -16,10 +16,10 @@ const Hr = glamorous.hr(
   borderColor,
   borderWidth,
   {
-    boxSizing: "content-box",
+    boxSizing: 'content-box',
     height: 0,
-    overflow: "visible"
-  }
+    overflow: 'visible',
+  },
 );
 
 Hr.defaultProps = {};

@@ -1,12 +1,12 @@
-import glamorous from "glamorous";
+import glamorous from 'glamorous';
 import {
   space,
   width,
   fontSize,
   fontWeight,
   lineHeight,
-  color
-} from "styled-system";
+  color,
+} from 'styled-system';
 
 const Q = glamorous.q(
   space,
@@ -15,7 +15,7 @@ const Q = glamorous.q(
   fontWeight,
   lineHeight,
   color,
-  {}
+  {},
 );
 
 Q.defaultProps = {};
