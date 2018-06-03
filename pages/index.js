@@ -11,29 +11,28 @@ const linkStyle = css`
 `;
 
 const Index = props => (
-  <Div color="black.1" bg="bg" py={[5, 6, 7]} px={[4, 5, 6]}>
-    <H1 fontSize={[2, 4, 6]} color="fuschia.7">
+  <Div fontSize={[2, 3]} color="black.1" bg="bg" py={[5, 6, 7]} px={[4, 5, 6]}>
+    <H1 fontSize={[2, 4, 6]} color="fuschia.7" lineHeight="title">
       Proto
     </H1>
-    <P fontSize={[2, 3]} lineHeight="copy">
+    <P lineHeight="copy">
       Setup for prototyping static sites with x0, emotion, styled-system and
       react.
-      <br />
-      Read the docs for more information:
-      <br />
-      <A
-        color="blue.5"
-        hover={{
-          color: 'blue.7',
-          textDecorationColor: theme.colors.blue[7],
-        }}
-        active={{ color: 'blue.5' }}
-        css={linkStyle}
-        href="https://github.com/fpapado/proto"
-      >
-        https://github.com/fpapado/proto
-      </A>
     </P>
+    <P lineHeight="copy">Read the docs for more information:</P>
+    <A
+      fontSize={[2, 3]}
+      color="blue.5"
+      hover={{
+        color: 'blue.7',
+        textDecorationColor: theme.colors.blue[7],
+      }}
+      active={{ color: 'blue.5' }}
+      css={linkStyle}
+      href="https://github.com/fpapado/proto"
+    >
+      https://github.com/fpapado/proto
+    </A>
   </Div>
 );
 
