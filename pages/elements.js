@@ -62,7 +62,7 @@ const Elements = props => (
       <H1>Elements</H1>
       <P mb={0} lineHeight="1.5" fontWeight="600" fontSize={3}>
         HTML elements wired up to styled-system and glamorous backed by a
-        cohesvie set of design primitives.
+        cohesive set of design primitives.
       </P>
     </Header>
     <Div>

@@ -127,10 +127,12 @@ const Card = ({children}) =>
 ```
 
 ### Further reading on styling
-If you have not used styled-system before, I highly recommend their documentation.
+If you have not used styled-system before, I highly recommend [their documentation]().
 
-Varun Vachar has another great resource, that motivates things from the ground up:
+Varun Vachar has another great on styling as props, that motivates things from the ground up:
 https://varun.ca/styled-system/
+
+The page under [localhost:8080/elements](localhost:8080/elements) has a playground.
 
 ## Deploying
 TODO: WIP

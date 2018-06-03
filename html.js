@@ -4,7 +4,7 @@ module.exports = ({
   scripts,
   title,
   meta = [],
-  links = []
+  links = [],
 }) => `<!DOCTYPE html>
 <head>
   <title>${title}</title>
