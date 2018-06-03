@@ -11,8 +11,13 @@ const Index = props => (
     <P fontSize={[2, 3]} color="blue.6" lineHeight="copy">
       Setup for prototyping static sites with x0, emotion, styled-system and
       react.
+    </P>
+    <P fontSize={[2, 3]} color="blue.6" lineHeight="copy">
+      Read the docs for more information:
       <br />
-      Read the docs for more information:)
+      <a href="https://github.com/fpapado/proto">
+        https://github.com/fpapado/proto
+      </a>
     </P>
   </Div>
 );

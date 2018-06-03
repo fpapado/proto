@@ -131,17 +131,26 @@ https://varun.ca/styled-system/
 The page under [localhost:8080/elements](localhost:8080/elements) has a playground.
 
 ## Deploying
-:construction: WORK IN PROGRESS :construction:
 There are many ways to deploy a static site.
-This part of the project is easy to remove, and mostly a convenience.
+The tool the example site uses is [Zeit's now](zeit.co/now).
 
-The this project uses is `now.sh`
+You can customise the specifics by modifying `now.json`.
+Look at their docs for the [full now.json specification](https://zeit.co/docs/features/configuration#now.json).
 
-`now.json`
+You also have to install their CLI once, probably globally:
 
 ```shell
-npm run publish
+npm run install -g now
 ```
+
+Then, whenever you want to deploy:
+
+```shell
+npm run deploy:now
+```
+
+This part of the project is easy to remove, and mostly a convenience.
+
 
 ## Credits
 Based on work by @mrmrs, @jxnblk, and @johno.
