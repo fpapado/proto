@@ -5,10 +5,10 @@ import P from '../elements/P';
 
 const Index = props => (
   <Div bg="bg" py={[5, 6, 7]} px={[4, 5, 6]}>
-    <H1 fontSize={[2, 4, 6]} color="blue">
+    <H1 fontSize={[2, 4, 6]} color="fuschia.7">
       Proto
     </H1>
-    <P fontSize={3} color="blue.0">
+    <P fontSize={3} color="blue.6">
       Setup for designing and building static sites with x0, emotion,
       styled-system and react.
     </P>

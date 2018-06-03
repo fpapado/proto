@@ -17,7 +17,7 @@ const fontSizes = [12, 14, 16, 24, 32, 48, 64, 96];
 const fontFamily = {
   serif: 'serif',
   sansSerif: 'sans-serif',
-  mono: 'monaco'
+  mono: 'monaco',
 };
 
 const lineHeights = [1, 1, 25, 1.5];
@@ -36,7 +36,7 @@ const colors = {
     '#97a0ad',
     '#7e8a9a',
     '#616d7c',
-    '#393f49'
+    '#393f49',
   ],
   blue: [
     '#e5f0fe',
@@ -48,7 +48,7 @@ const colors = {
     '#0563de',
     '#0456c2',
     '#0347a0',
-    '#023272'
+    '#023272',
   ],
   indigo: [
     '#ecebfe',
@@ -60,7 +60,7 @@ const colors = {
     '#1305df',
     '#1104c3',
     '#0e03a2',
-    '#0a0274'
+    '#0a0274',
   ],
   violet: [
     '#f5e9fe',
@@ -72,7 +72,7 @@ const colors = {
     '#8105df',
     '#7104c3',
     '#5d03a2',
-    '#430274'
+    '#430274',
   ],
   fuschia: [
     '#feeafd',
@@ -84,7 +84,7 @@ const colors = {
     '#df05d1',
     '#c404b8',
     '#a30399',
-    '#76026f'
+    '#76026f',
   ],
   pink: [
     '#feeaf3',
@@ -96,7 +96,7 @@ const colors = {
     '#df0563',
     '#c40457',
     '#a30348',
-    '#760234'
+    '#760234',
   ],
   red: [
     '#feebea',
@@ -108,7 +108,7 @@ const colors = {
     '#df1305',
     '#c41104',
     '#a30e03',
-    '#750a02'
+    '#750a02',
   ],
   orange: [
     '#fef1e1',
@@ -120,7 +120,7 @@ const colors = {
     '#df8105',
     '#c37104',
     '#a25e03',
-    '#744302'
+    '#744302',
   ],
   yellow: [
     '#fcfee3',
@@ -132,7 +132,7 @@ const colors = {
     '#d1df05',
     '#b8c404',
     '#99a403',
-    '#6f7702'
+    '#6f7702',
   ],
   lime: [
     '#effee4',
@@ -144,7 +144,7 @@ const colors = {
     '#63df05',
     '#57c404',
     '#48a303',
-    '#357702'
+    '#357702',
   ],
   green: [
     '#e9feea',
@@ -156,7 +156,7 @@ const colors = {
     '#05df13',
     '#04c411',
     '#03a40e',
-    '#02770a'
+    '#02770a',
   ],
   teal: [
     '#e7fef4',
@@ -168,7 +168,7 @@ const colors = {
     '#05df81',
     '#04c471',
     '#03a45e',
-    '#027745'
+    '#027745',
   ],
   cyan: [
     '#e6fcfe',
@@ -180,7 +180,7 @@ const colors = {
     '#05d1df',
     '#04b8c4',
     '#0399a3',
-    '#026f76'
+    '#026f76',
   ],
   black: [
     'black',
@@ -191,7 +191,7 @@ const colors = {
     'rgba(0,0,0,.1)',
     'rgba(0,0,0,.05)',
     'rgba(0,0,0,.025)',
-    'rgba(0,0,0,.0125)'
+    'rgba(0,0,0,.0125)',
   ],
   white: [
     '#fff',
@@ -202,30 +202,30 @@ const colors = {
     'rgba(255,255,255,.1)',
     'rgba(255,255,255,.05)',
     'rgba(255,255,255,.025)',
-    'rgba(255,255,255,.0125)'
-  ]
+    'rgba(255,255,255,.0125)',
+  ],
 };
 
 const textStyles = {
   caps: {
     textTransform: 'uppercase',
-    letterSpacing: '0.2em'
-  }
+    letterSpacing: '0.2em',
+  },
 };
 
 const colorStyles = {
   error: {
     color: 'red.9',
-    backgroundColor: 'red.4'
+    backgroundColor: 'red.4',
   },
   success: {
     color: 'green.9',
-    backgroundColor: 'green.4'
+    backgroundColor: 'green.4',
   },
   warning: {
     color: 'orange.9',
-    backgroundColor: 'orange.4'
-  }
+    backgroundColor: 'orange.4',
+  },
 };
 
 const theme = {
@@ -242,7 +242,7 @@ const theme = {
   letterSpacings,
   measures,
   textStyles,
-  colorStyles
+  colorStyles,
 };
 
 export default theme;
