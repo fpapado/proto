@@ -46,14 +46,14 @@ Instead, you are encouraged to clone the repository and make it your own.
 
 If you have [git](https://git-scm.com/) installed, you can clone and disassociate it from the command line:
 ```
-git clone https://github.com/fpapado/prototypon myprojectname
+git clone https://github.com/fpapado/proto myprojectname
 cd myprojectname
 rm -rf .git/
 ```
 
 I also like using [degit](https://github.com/Rich-Harris/degit) for doing exactly those steps:
 ```shell
-degit https://github.com/fpapado/prototypon myprojectname
+degit https://github.com/fpapado/proto myprojectname
 ```
 
 I would love to chat about what you've built or how your own setup has diverged!
