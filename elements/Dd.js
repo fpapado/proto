@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   display,
@@ -10,7 +10,7 @@ import {
   borderWidth,
 } from 'styled-system';
 
-const Dd = glamorous.dd(
+const Dd = styled.dd(
   space,
   display,
   width,

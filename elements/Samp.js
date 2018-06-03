@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   width,
@@ -8,18 +8,10 @@ import {
   borderRadius,
 } from 'styled-system';
 
-const Samp = glamorous.samp(
-  space,
-  width,
-  fontSize,
-  color,
-  borders,
-  borderRadius,
-  {
-    boxSizing: 'border-box',
-    fontFamily: 'monospace, monospace',
-  },
-);
+const Samp = styled.samp(space, width, fontSize, color, borders, borderRadius, {
+  boxSizing: 'border-box',
+  fontFamily: 'monospace, monospace',
+});
 
 Samp.defaultProps = {
   fontSize: 2,

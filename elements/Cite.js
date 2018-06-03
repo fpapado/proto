@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   width,
@@ -8,7 +8,7 @@ import {
   color,
 } from 'styled-system';
 
-const Cite = glamorous.cite(
+const Cite = styled.cite(
   space,
   width,
   fontSize,

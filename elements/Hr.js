@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   width,
@@ -8,19 +8,11 @@ import {
   borderWidth,
 } from 'styled-system';
 
-const Hr = glamorous.hr(
-  space,
-  width,
-  color,
-  borders,
-  borderColor,
-  borderWidth,
-  {
-    boxSizing: 'content-box',
-    height: 0,
-    overflow: 'visible',
-  },
-);
+const Hr = styled.hr(space, width, color, borders, borderColor, borderWidth, {
+  boxSizing: 'content-box',
+  height: 0,
+  overflow: 'visible',
+});
 
 Hr.defaultProps = {};
 

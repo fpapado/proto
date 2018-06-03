@@ -1,7 +1,7 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import { space, fontSize, fontWeight, lineHeight, color } from 'styled-system';
 
-const Abbr = glamorous.abbr(space, fontSize, fontWeight, color, {
+const Abbr = styled.abbr(space, fontSize, fontWeight, color, {
   '[title]': {
     borderBottom: 'none',
     textDecoration: 'underline dotted',

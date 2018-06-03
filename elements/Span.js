@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   display,
@@ -10,7 +10,7 @@ import {
   color,
 } from 'styled-system';
 
-const Span = glamorous.span(
+const Span = styled.span(
   space,
   display,
   width,

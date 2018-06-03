@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   display,
@@ -14,7 +14,7 @@ import {
   focus,
 } from 'styled-system';
 
-const Input = glamorous.input(
+const Input = styled.input(
   space,
   display,
   width,

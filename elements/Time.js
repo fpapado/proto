@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   display,
@@ -9,7 +9,7 @@ import {
   color,
 } from 'styled-system';
 
-const Time = glamorous.time(
+const Time = styled.time(
   space,
   display,
   width,

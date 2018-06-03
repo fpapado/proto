@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   width,
@@ -13,7 +13,7 @@ const verticalAlign = props => ({
   verticalAlign: props.verticalAlign ? props.verticalAlign : 'middle',
 });
 
-const Td = glamorous.td(
+const Td = styled.td(
   space,
   width,
   fontSize,

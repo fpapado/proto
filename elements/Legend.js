@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   display,
@@ -11,7 +11,7 @@ import {
   borderRadius,
 } from 'styled-system';
 
-const Legend = glamorous.legend(
+const Legend = styled.legend(
   space,
   display,
   width,

@@ -1,7 +1,7 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import { space, width, fontSize, color } from 'styled-system';
 
-const Data = glamorous.data(space, width, fontSize, color, {});
+const Data = styled.data(space, width, fontSize, color, {});
 
 Data.defaultProps = {};
 

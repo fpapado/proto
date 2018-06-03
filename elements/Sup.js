@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   width,
@@ -8,7 +8,7 @@ import {
   color,
 } from 'styled-system';
 
-const Sup = glamorous.sup(space, fontSize, fontWeight, lineHeight, color, {});
+const Sup = styled.sup(space, fontSize, fontWeight, lineHeight, color, {});
 
 Sup.defaultProps = {};
 

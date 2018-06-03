@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   width,
@@ -10,7 +10,7 @@ import {
   borderRadius,
 } from 'styled-system';
 
-const Textarea = glamorous.textarea(
+const Textarea = styled.textarea(
   space,
   width,
   fontSize,

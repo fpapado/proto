@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   display,
@@ -8,7 +8,7 @@ import {
   color,
 } from 'styled-system';
 
-const Dt = glamorous.dt(space, display, width, fontSize, fontWeight, color, {});
+const Dt = styled.dt(space, display, width, fontSize, fontWeight, color, {});
 
 Dt.defaultProps = {};
 

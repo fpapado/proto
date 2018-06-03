@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import theme from '../theme';
 import {
   space,
@@ -17,7 +17,7 @@ import {
   focus,
 } from 'styled-system';
 
-const Button = glamorous.button(
+const Button = styled.button(
   space,
   width,
   display,

@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   display,
@@ -12,7 +12,7 @@ import {
   borders,
 } from 'styled-system';
 
-const H1 = glamorous.h1(
+const H1 = styled.h1(
   space,
   display,
   width,

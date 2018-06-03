@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   width,
@@ -11,7 +11,7 @@ import {
   borderRadius,
 } from 'styled-system';
 
-const Aside = glamorous.aside(
+const Aside = styled.aside(
   space,
   width,
   display,

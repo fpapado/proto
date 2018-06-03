@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   display,
@@ -12,7 +12,7 @@ import {
   borderRadius,
 } from 'styled-system';
 
-const Ul = glamorous.ul(
+const Ul = styled.ul(
   space,
   display,
   width,

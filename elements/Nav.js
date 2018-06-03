@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   display,
@@ -14,7 +14,7 @@ import {
   borderRadius,
 } from 'styled-system';
 
-const Nav = glamorous.nav(
+const Nav = styled.nav(
   space,
   display,
   width,

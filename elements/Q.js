@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   width,
@@ -8,15 +8,7 @@ import {
   color,
 } from 'styled-system';
 
-const Q = glamorous.q(
-  space,
-  width,
-  fontSize,
-  fontWeight,
-  lineHeight,
-  color,
-  {},
-);
+const Q = styled.q(space, width, fontSize, fontWeight, lineHeight, color, {});
 
 Q.defaultProps = {};
 

@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   width,
@@ -8,7 +8,7 @@ import {
   color,
 } from 'styled-system';
 
-const Small = glamorous.small(
+const Small = styled.small(
   space,
   width,
   fontSize,

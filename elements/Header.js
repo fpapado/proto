@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   display,
@@ -13,7 +13,7 @@ import {
   borderRadius,
 } from 'styled-system';
 
-const Header = glamorous.header(
+const Header = styled.header(
   space,
   display,
   width,

@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   width,
@@ -10,7 +10,7 @@ import {
   borderWidth,
 } from 'styled-system';
 
-const Li = glamorous.li(
+const Li = styled.li(
   space,
   width,
   fontSize,

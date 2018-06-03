@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   display,
@@ -10,7 +10,7 @@ import {
   borderRadius,
 } from 'styled-system';
 
-const Img = glamorous.img(
+const Img = styled.img(
   space,
   display,
   width,

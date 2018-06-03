@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 
 import {
   space,
@@ -17,7 +17,7 @@ const maxWidth = props => ({
   maxWidth: props.maxWidth ? props.maxWidth : '100%',
 });
 
-const Div = glamorous.div(
+const Div = styled.div(
   space,
   width,
   display,

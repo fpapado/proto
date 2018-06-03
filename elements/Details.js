@@ -1,4 +1,4 @@
-import glamorous from 'glamorous';
+import styled from 'react-emotion';
 import {
   space,
   display,
@@ -9,7 +9,7 @@ import {
   color,
 } from 'styled-system';
 
-const Details = glamorous.details(
+const Details = styled.details(
   space,
   display,
   width,
