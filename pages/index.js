@@ -1,7 +1,7 @@
-import React from 'react';
-import Div from '../elements/Div';
-import H1 from '../elements/H1';
-import P from '../elements/P';
+import React from "react";
+import Div from "../elements/Div";
+import H1 from "../elements/H1";
+import P from "../elements/P";
 
 const Index = props => (
   <Div bg="bg" py={[5, 6, 7]} px={[4, 5, 6]}>

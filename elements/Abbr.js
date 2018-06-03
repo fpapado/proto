@@ -1,15 +1,13 @@
-import glamorous from 'glamorous'
-import { space, fontSize, fontWeight, lineHeight, color } from 'styled-system'
+import glamorous from "glamorous";
+import { space, fontSize, fontWeight, lineHeight, color } from "styled-system";
 
-const Abbr = glamorous.abbr(space, fontSize, fontWeight, color,  {
-  '[title]': {
-    borderBottom: 'none',
-    textDecoration: 'underline dotted',
+const Abbr = glamorous.abbr(space, fontSize, fontWeight, color, {
+  "[title]": {
+    borderBottom: "none",
+    textDecoration: "underline dotted"
   }
-})
+});
 
-Abbr.defaultProps = {
-  
-}
+Abbr.defaultProps = {};
 
-export default Abbr
+export default Abbr;

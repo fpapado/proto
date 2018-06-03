@@ -1,13 +1,8 @@
-import glamorous from 'glamorous'
-import { space, fontSize, fontWeight, color } from 'styled-system'
+import glamorous from "glamorous";
+import { space, fontSize, fontWeight, color } from "styled-system";
 
-const I = glamorous.I(space, fontSize, fontWeight, color, {
-  
-})
+const I = glamorous.I(space, fontSize, fontWeight, color, {});
 
-I.defaultProps = {
+I.defaultProps = {};
 
-}
-
-export default I
-
+export default I;
