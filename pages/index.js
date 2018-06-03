@@ -8,9 +8,11 @@ const Index = props => (
     <H1 fontSize={[2, 4, 6]} color="fuschia.7">
       Proto
     </H1>
-    <P fontSize={3} color="blue.6">
-      Setup for designing and building static sites with x0, emotion,
-      styled-system and react.
+    <P fontSize={[2, 3]} color="blue.6" lineHeight="copy">
+      Setup for prototyping static sites with x0, emotion, styled-system and
+      react.
+      <br />
+      Read the docs for more information:)
     </P>
   </Div>
 );

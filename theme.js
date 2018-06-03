@@ -20,7 +20,11 @@ const fontFamily = {
   mono: 'monaco',
 };
 
-const lineHeights = [1, 1, 25, 1.5];
+const lineHeights = {
+  solid: 1,
+  title: 1.25,
+  copy: 1.5,
+};
 
 const letterSpacings = ['0.05em', '0.075em', '0.1em'];
 

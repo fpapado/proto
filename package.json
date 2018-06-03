@@ -1,7 +1,7 @@
 {
   "name": "proto",
   "version": "0.1.0",
-  "description": "Static site builder with React, Glamorous, Styled-system, and x0",
+  "description": "Prototying setup with React, Emotion, Styled-system, and x0",
   "scripts": {
     "start": "npm run dev",
     "dev": "x0 pages",
