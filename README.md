@@ -12,7 +12,7 @@ It is based on a few principles:
 - Specifics will change, but patterns are trasnferable;
 - A prototyping system will be different for each user. This specific system might not be for you, and that is ok :)
 
-Based on x0, glamorous, and styled-system.
+Based on x0 and styled-system.
 Inspired by [x0-styled](https://github.com/mrmrs/x0-styled).
 
 As this project uses css-in-js, all css is inlined to the head.
@@ -101,6 +101,8 @@ npm run build-static
 The main part of this repository is under the `elements/` directory.
 React components under that directory are thin wrappers on top of HTML elements (e.g. `<p>`, `<div>`).
 They provide extra "styling superpowers" from [styled-system]().
+The design system values are mapped to css classnames dynamically, using the [emotion]() css-in-js library.
+In that sense, CSS is more like the target, but the essence is in the values.
 
 In the shortest way I can put it:
 A "theme" file exists under `theme.js`. It covers some basic **design values** and scales in your system, such as typography, spacing, and colours.

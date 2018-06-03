@@ -61,8 +61,8 @@ const Elements = props => (
     <Header pb={6} mb={6} borderBottom="1px solid black">
       <H1>Elements</H1>
       <P mb={0} lineHeight="1.5" fontWeight="600" fontSize={3}>
-        HTML elements wired up to styled-system and glamorous backed by a
-        cohesive set of design primitives.
+        HTML elements wired up to styled-system and emotion backed by a cohesive
+        set of design primitives.
       </P>
     </Header>
     <Div>

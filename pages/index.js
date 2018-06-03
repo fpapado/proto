@@ -9,7 +9,7 @@ const Index = props => (
       Proto
     </H1>
     <P fontSize={3} color="blue.0">
-      Setup for designing and building static sites with x0, glamorous,
+      Setup for designing and building static sites with x0, emotion,
       styled-system and react.
     </P>
   </Div>
