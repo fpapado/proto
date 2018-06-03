@@ -3,19 +3,17 @@
 > Pick the things you need to focus on, and forget about the rest.
 
 ## What is this?
-A starter template for quickly deploying static websites.
+A starter template for quickly developing static websites.
 
 The main idea is to allow you to pick the things you need to focus on, and forget about the rest.
 It is based on a few principles:
-- Prototypes have an end;
-- Prototypes and random stuff should be fun **explore**, **develop** and **share**;
-- Specifics will change, but patterns are trasnferable;
+- Prototypes have an end in sight;
+- Prototypes and random stuff should be fun to **explore**, **develop** and **share**;
+- Specifics will change, but patterns are transferable;
 - A prototyping system will be different for each user. This specific system might not be for you, and that is ok :)
 
-Based on x0 and styled-system.
+Based on x0, react and styled-system.
 Inspired by [x0-styled](https://github.com/mrmrs/x0-styled).
-
-As this project uses css-in-js, all css is inlined to the head.
 
 ## Concepts
 Here are the main development concepts:
@@ -28,13 +26,13 @@ Here are the main development concepts:
 The tech world often calls these setups "opinions".
 I do not find that characterisation frutiful.
 I would rather think of this setup as "my happy place".
-Over time, the prototyping setup I use changes, in a self-sustaining loop between "learning to make something new" and "learning a new way to make something".
+Over time, the prototyping setup I use changes, in a loop between "learning to make something new" and "learning a new way to make something".
 In other words, it allows me to focus on the things I am interested in at a certain moment, by leveraging familiar patterns.
 
-Different versions of the setup will be tagged in [Releases]() for future reference.
+Different versions of the setup will be tagged in [Releases](https://github.com/fpapado/proto/releases) for future reference.
 
 ### I have not used this setup before, can I build with it?
-Yes! How relaxed you will be doing so will depend on how familiar you are with each of the development concepts/tools above.
+Yes! How relaxed you will be depends on how familiar you are with each of the development concepts/tools above.
 If you have worked with React before, I think that styled-system will probably be the new variable.
 If you have not worked with React before, but know CSS and HTML, I am also optimistic about it.
 
@@ -46,14 +44,14 @@ If your scenario falls in the latter case, I hope your time prototyping will be 
 You don't.
 Instead, you are encouraged to clone the repository and make it your own.
 
-If you have [git]() installed, you can clone and disassociate it from the command line:
+If you have [git](https://git-scm.com/) installed, you can clone and disassociate it from the command line:
 ```
 git clone https://github.com/fpapado/prototypon myprojectname
 cd myprojectname
 rm -rf .git/
 ```
 
-I also like using [degit]() for doing exactly those steps:
+I also like using [degit](https://github.com/Rich-Harris/degit) for doing exactly those steps:
 ```shell
 degit https://github.com/fpapado/prototypon myprojectname
 ```
@@ -67,17 +65,17 @@ After downloading the directory and navigating to it in your terminal, run:
 npm install && npm run dev
 ```
 
-Then open your browser at localhost:8000
+Then open your browser at [localhost:8080](http://localhost:8080)
 
 You can edit `pages/Index.js` and you should see those adjustments update live in the browser.
 
 If you want to customise the title and description of your site, look under the `x0` field in `package.json`.
 
 ## Adding a new page
-x0 crates routes based on the filesystem, mirroring the setup under the `files/` directory.
+x0 creates routes based on the filesystem, mirroring the setup under the `pages/` directory.
 
-Fist add a new page in the `pages/` directory. 
-You can copy Index.js and rename it to something else, like Example.js
+Fist add a new page in the `pages/` directory.
+You can copy `Index.js` and rename it to something else, like `Example.js`.
 
 See [x0's docs on Routing](https://github.com/c8r/x0#routing) for more details.
 
@@ -101,6 +99,7 @@ The design system values are mapped to css classnames dynamically, using the [em
 In that sense, CSS is more like the target, but the essence is in the values.
 
 In the shortest way I can put it:
+
 A "theme" file exists under `theme.js`. It covers some basic **design values** and scales in your system, such as typography, spacing, and colours.
 Components in your system use those values, and combine to make greater things.
 To make working with these values more ergonomic, styled-system links them to React props.
@@ -126,7 +125,7 @@ The page under [localhost:8080/elements](localhost:8080/elements) has a playgrou
 
 ## Deploying
 There are many ways to deploy a static site.
-The tool the example site uses is [Zeit's now](zeit.co/now).
+The tool the example site uses is [Zeit's now](https://zeit.co/now).
 
 You can customise the specifics by modifying `now.json`.
 Look at their docs for the [full now.json specification](https://zeit.co/docs/features/configuration#now.json).
