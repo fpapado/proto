@@ -12,7 +12,7 @@ const linkStyle = css`
 
 const Index = props => (
   <Div fontSize={[2, 3]} color="black.1" bg="bg" py={[5, 6, 7]} px={[4, 5, 6]}>
-    <H1 fontSize={[2, 4, 6]} color="fuschia.7" lineHeight="title">
+    <H1 fontSize={[3, 4, 6]} color="fuschia.7" lineHeight="title">
       Proto
     </H1>
     <P lineHeight="copy">

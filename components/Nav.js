@@ -47,11 +47,12 @@ const NavLink = styled(Link)(
 
 const SiteNav = ({ currentRoute, routes }) => (
   <Div pt={4} px={[4, 5, 6]}>
-    <Nav mx={-3} display="flex">
+    <Nav mx={[-2, -2, -3]} display="flex" alignItems="center">
+      Nav:
       {routes.map(route => (
         <NavLink
           mx={3}
-          p={3}
+          p={2}
           fontSize={2}
           color="blue.5"
           hover={{
