@@ -1,19 +1,20 @@
 # Proto
 
-> Pick the things you need to focus on, and forget about the rest.
+> Making websites: fun mode.
 
 ## What is this?
-A starter template for quickly developing static websites.
+A starter template for quickly prototyping static websites.
 
 The main idea is to allow you to pick the things you need to focus on, and forget about the rest.
-It is based on a few principles:
+
+There are a few guiding principles:
 - Prototypes have an end in sight;
 - Prototypes and random stuff should be fun to **explore**, **develop** and **share**;
 - Specifics will change, but patterns are transferable;
-- A prototyping system will be different for each user. This specific system might not be for you, and that is ok :)
+- A prototyping system will be different for each user. This specific system might not be for everyone, and that is ok :)
 
-Based on x0, react and styled-system.
-Inspired by [x0-styled](https://github.com/mrmrs/x0-styled).
+Uses x0, react and styled-system.
+Based on [x0-styled](https://github.com/mrmrs/x0-styled).
 
 ## Concepts
 Here are the main development concepts:
@@ -25,9 +26,9 @@ Here are the main development concepts:
 
 The tech world often calls these setups "opinions".
 I do not find that characterisation frutiful.
-I would rather think of this setup as "my happy place".
+I would rather think of this setup as "my current happy place".
 Over time, the prototyping setup I use changes, in a loop between "learning to make something new" and "learning a new way to make something".
-In other words, it allows me to focus on the things I am interested in at a certain moment, by leveraging familiar patterns.
+In other words, it allows me to focus on the things I am interested in at a certain moment, by leveraging familiar patterns and APIs.
 
 Different versions of the setup will be tagged in [Releases](https://github.com/fpapado/proto/releases) for future reference.
 
@@ -75,7 +76,7 @@ If you want to customise the title and description of your site, look under the 
 x0 creates routes based on the filesystem, mirroring the setup under the `pages/` directory.
 
 Fist add a new page in the `pages/` directory.
-You can copy `index.js` and rename it to something else, like `Example.js`.
+You can copy `index.js` and rename it to something else, like `Gallery.js`.
 
 See [x0's docs on Routing](https://github.com/c8r/x0#routing) for more details.
 
@@ -96,7 +97,7 @@ The main part of this repository is under the `elements/` directory.
 React components under that directory are thin wrappers on top of HTML elements (e.g. `<p>`, `<div>`).
 They provide extra "styling superpowers" from [styled-system](https://jxnblk.com/styled-system/).
 The design system values are mapped to css classnames dynamically, using the [emotion](https://github.com/emotion-js/emotion) css-in-js library.
-In that sense, CSS is more like the target, but the essence is in the values.
+In that sense, CSS is more like the target, but the imporant stuff is in the values.
 
 In the shortest way I can put it:
 
@@ -107,11 +108,11 @@ To make working with these values more ergonomic, styled-system links them to Re
 For example, consider a Card component:
 
 ```jsx
-const Card = ({children}) =>
+const Card = ({imageSrc, imageAlt, text}) =>
   // Div with padding scale value of 3 and colours
   <Div p={3} bg="white.1" color="black.1">
-    <Img width={100} src="somesource" alt="descriptive image text" />
-    <P>Content for the card</P>
+    <Img width={100} src={imageSrc} alt={imageAlt} />
+    <P>{text}</P>
   </Div>
 ```
 
@@ -144,10 +145,16 @@ npm run build && npm run deploy:now
 
 This part of the project is easy to remove, and mostly a convenience.
 
-## Credits
+## Credits, Thanks, Inspiration
 Based on work by @mrmrs, @jxnblk, and @johno.
 I have drawn a lot of ideas from them in the past few years.
 Though I will likely never meet them, their work has been inspiring.
 
 The initial set up was by @mrmrs on the x0-styled repository:
 https://github.com/mrmrs/x0-styled
+
+The setup was adapted for x0 v5, uses Emotion, and has my own take on the docs.
+I find the "elements" analogy valuable in showing how they map to HTML elements, that have some "styling superpowers".
+Superpowers is what I felt I had when I started using styled-system (and further back, [tachyons](https://tachyons.io/)), so it seems fitting.
+That, combined with the zero-config of x0 gives me a simple way to replicate my ideal prototyping setup.
+I hope you find something valuable here!
