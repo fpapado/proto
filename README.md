@@ -67,7 +67,7 @@ npm install && npm run dev
 
 Then open your browser at [localhost:8080](http://localhost:8080)
 
-You can edit `pages/Index.js` and you should see those adjustments update live in the browser.
+You can edit `pages/index.js` and you should see those adjustments update live in the browser.
 
 If you want to customise the title and description of your site, look under the `x0` field in `package.json`.
 
@@ -75,7 +75,7 @@ If you want to customise the title and description of your site, look under the 
 x0 creates routes based on the filesystem, mirroring the setup under the `pages/` directory.
 
 Fist add a new page in the `pages/` directory.
-You can copy `Index.js` and rename it to something else, like `Example.js`.
+You can copy `index.js` and rename it to something else, like `Example.js`.
 
 See [x0's docs on Routing](https://github.com/c8r/x0#routing) for more details.
 
