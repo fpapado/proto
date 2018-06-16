@@ -63,7 +63,7 @@ I would love to chat about what you've built or how your own setup has diverged!
 After downloading the directory and navigating to it in your terminal, run:
 
 ```
-npm install && npm run dev
+npm install && npm start
 ```
 
 Then open your browser at [localhost:8080](http://localhost:8080)
