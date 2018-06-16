@@ -134,7 +134,7 @@ Look at their docs for the [full now.json specification](https://zeit.co/docs/fe
 You also have to install their CLI once, probably globally:
 
 ```shell
-npm run install -g now
+npm install -g now
 ```
 
 Then, whenever you want to deploy:
